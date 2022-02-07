@@ -15,5 +15,4 @@
 | `git merge` | Merge the commits that have been fetched from the remote repo into the local repo. |
 | `git pull` | `git fetch` and `git merge` at the same time |
 
-
 [(source)](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
