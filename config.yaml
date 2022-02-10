@@ -24,6 +24,17 @@ Standards:
         UID: EgvjDl
         Path: /git-setup/git-workflow-setup.md
   -
+    Title: "Virtual Environments"
+    Description: "Virtual Environments and Projects"
+    UID: 1e053af0-420f-48d6-bcbd-b3edbb822879
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: UZp4J5
+        Path: /virtual-environments/virtual-environments-and-projects.md
+  -
     Title: Intro to Git Workflow
     Description: "Commits, Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Git History"
     UID: DaSCfO
