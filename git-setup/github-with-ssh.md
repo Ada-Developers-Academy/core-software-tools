@@ -108,7 +108,50 @@ We may need to confirm our password.
 
 Then we can save the key.
 
-## Test SSH Key
+## Cloning a Repository with SSH
+
+We can then test the keys with the by cloning a repository with SSH. 
+
+First CD into our `Developer` folder.
+
+```
+$ cd ~/Developer
+```
+
+Then go to a sample git repository on github.  
+
+Go to [https://github.com/AdaGold/python-fizzbuzz](https://github.com/AdaGold/python-fizzbuzz).
+
+Select the SSH Clone option
+
+![SSH Clone](../assets/github-setup__clone-with-ssh.png)
+
+1.  First click on the Green `Code` Button
+1.  Next Click on the `SSH` option
+1.  Lastly click on the copy button to copy the link to the clipboard
+
+Next in terminal you can clone the repository by typing `git clone ` and pasting the link you copied from the browser with `command-v`.
+
+```
+$ git clone git@github.com:AdaGold/python-fizzbuzz.git
+```
+
+You should see a new subfolder in your `~/Developer` directory named `python-fizzbuzz`.
+
+The following commands should move the terminal to the `python-fizzbuzz` directory and then open the project with VS Code.
+
+```
+$ cd python-fizzbuzz
+$ code .
+```
+
+In the future you can download repository starter code with:
+
+1.  Go to the repository page in Github.com
+1.  Click on the Code button and copy the SSH link
+1.  Type `git clone ` paste the link to the repository and press `Enter`.
+
+This will clone a repository to your local computer.
 
 ## Other Useful Commands
 
@@ -136,6 +179,7 @@ By default files containing ssh keys can be named one of the following:
 
 ## Summary
 
+In this lesson we walked through how to set git to connect to Github and authenticate using SSH. SSH is one method of connecting to Github and allows us to securely move files including code between our local computers and the Github servers.
 
 ## Resources
 
