@@ -10,19 +10,19 @@ Standards:
       -
         Type: Lesson
         UID: qCKw66
-        Path: /intro-to-git/intro-to-git-vocab-and-concepts.md
+        Path: /git-setup/intro-to-git-vocab-and-concepts.md
       -
         Type: Lesson
         UID: 610bc189-6b6b-4b35-b3af-1bc9ca4348bc
         Path: /git-setup/github-with-ssh.md
       -
         Type: Lesson
-        UID: EgvjDl
-        Path: /intro-to-git/git-setup-with-access-token.md
+        UID: 6c114fa6
+        Path: /git-setup/github-setup-with-access-token.md
       -
         Type: Lesson
         UID: EgvjDl
-        Path: /intro-to-git/git-workflow-setup.md
+        Path: /git-setup/git-workflow-setup.md
   -
     Title: Intro to Git Workflow
     Description: "Commits, Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Git History"
