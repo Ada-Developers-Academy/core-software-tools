@@ -12,7 +12,7 @@ Standards:
         UID: qCKw66
         Path: /git-setup/intro-to-git-vocab-and-concepts.md
       -
-        Type: Lesson
+        Type: Resource
         UID: 610bc189-6b6b-4b35-b3af-1bc9ca4348bc
         Path: /git-setup/github-with-ssh.md
       -
