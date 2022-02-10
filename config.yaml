@@ -11,6 +11,10 @@ Standards:
         Type: Lesson
         UID: 610bc189-6b6b-4b35-b3af-1bc9ca4348bc
         Path: /git-setup/github-with-ssh.md
+      -
+        Type: Lesson
+        UID: 3b9c9f2d-c948-4f5c-a50a-1a10d7b4e633
+        Path: /git-setup/github-setup-with-access-token.md
   -
     Title: Intro to Git
     Description: "Intro to Git: Vocab and Concepts, Git Setup, Commits, Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Git History"
