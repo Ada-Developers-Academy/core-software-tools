@@ -131,6 +131,17 @@ Different versioning tools have different collaboration strategies. Some older V
 
 ### !end-callout
 
+## Connecting Git to Github
+
+Git is a command line tool we use to save incremental versions of our code. Github is a service that lets us host our codebases online.  There are alternatives to Github, but they are not as popular. Some of the leading alternatives are Bitbucket and Gitlab.
+
+To connect Git to Github, we need a way to authenticate.  Authentication is the process of verifying our identity with a service. There are several ways to authenticate with Github using git.
+
+- [Secure Shell (SSH)](./github-with-ssh.md) - The Ada recommended method
+- [Personal Access Tokens (PAT)](./github-setup-with-access-token.md) - An alternative method
+
+We recommend using SSH to connect git and github because SSH is a method used widely for other applications as well whereas personal access tokens are more specific to Github. In industry Ada alumni will likely use SSH to connect to remote servers and some familiarity with SSH will be helpful.
+
 ## Check for Understanding
 
 <!-- Question 1 -->
