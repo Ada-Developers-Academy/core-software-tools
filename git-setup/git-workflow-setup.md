@@ -126,7 +126,9 @@ In the process above, we specified choosing HTTPS for cloning the project. This 
 
 ## No Really, Clone with HTTPS
 
-The ability to clone with SSH is welcome, and is a great and wonderful way to clone! However, it requires additional setup not covered in this curriculum. This curriculum officially recommends cloning with HTTPS for now, but follow your curiosity!
+The ability to clone with SSH is welcome, and is a great and wonderful way to clone! However, it requires additional setup not covered in this curriculum. This curriculum officially recommends cloning with HTTPS for now.
+
+To explore authenticating to Github with SSH, here is an [optional lesson on GitHub's SSH setup](./github-with-ssh.md).
 
 ### !end-callout
 
