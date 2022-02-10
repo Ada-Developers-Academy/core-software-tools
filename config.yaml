@@ -1,6 +1,17 @@
 ---
 Standards:
   -
+    Title: Git & Github Setup
+    Description: "Git setup with SSH, Git setup with Access Token"
+    UID: 37ec02c8-be30-43d4-9d9b-af37e7bb7ff7
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 610bc189-6b6b-4b35-b3af-1bc9ca4348bc
+        Path: /git-setup/github-with-ssh.md
+  -
     Title: Intro to Git
     Description: "Intro to Git: Vocab and Concepts, Git Setup, Commits, Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Git History"
     UID: DaSCfO
