@@ -1,5 +1,7 @@
 # Connecting To Github Over SSH
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=226728e9-67c1-437a-bb3e-ae3801219f73&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&captions=true&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Introduction
 
 The **S**ecure **S**hell **P**rotocol is a cryptographic network protocol for operating network services securely over an unsecured network. As developers we often use SSH to remotely login or connect to servers over a network. Github allows users to connect their personal git to their remote repositories on Github using SSH among other methods.
