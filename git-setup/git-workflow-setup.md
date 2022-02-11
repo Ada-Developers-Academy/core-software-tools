@@ -1,4 +1,4 @@
-# Git Setup
+# Git Workflow Setup
 
 <iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?pid=d0d1a604-fdeb-4f89-b851-ad28017a90b1&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
@@ -126,7 +126,9 @@ In the process above, we specified choosing HTTPS for cloning the project. This 
 
 ## No Really, Clone with HTTPS
 
-The ability to clone with SSH is welcome, and is a great and wonderful way to clone! However, it requires additional setup not covered in this curriculum. This curriculum officially recommends cloning with HTTPS for now, but follow your curiosity!
+The ability to clone with SSH is welcome, and is a great and wonderful way to clone! However, it requires additional setup not covered in this curriculum. This curriculum officially recommends cloning with HTTPS for now.
+
+To explore authenticating to Github with SSH, here is an [optional lesson on GitHub's SSH setup](./github-with-ssh.md).
 
 ### !end-callout
 
