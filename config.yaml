@@ -82,6 +82,10 @@ Standards:
       - success criteria
     ContentFiles:
       -
+        Type: Instructor
+        UID: bfe2e5a6-7731-44a5-9beb-e7b0e387954e
+        Path: /branches-in-git/activity-merge-carnival.instructor.md
+      -
         Type: Lesson
         UID: 6c8aa01cc55f51f3cb90f1fd9f851595
         Path: /branches-in-git/branches.md
@@ -93,6 +97,10 @@ Standards:
         Type: Lesson
         UID: a23c8692ae7b601177cd574151717d51
         Path: /branches-in-git/problem-set-git.md
+      -
+        Type: Lesson
+        UID: c421363b-ef64-4017-9e90-25ca0ba14f79
+        Path: /branches-in-git/activity-merge-carnival.md
   -
     Title: "External Resources"
     Description: "Learning Resources Provided by the Ada Community"
