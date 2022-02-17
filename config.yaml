@@ -59,7 +59,7 @@ Standards:
         Path: /intermediate-python-debugging/problem-set-using-the-debugger.md
   -
     Title: Intro to Git Workflow
-    Description: "Commits, Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Git History"
+    Description: "Commits, Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Git Collaboration"
     UID: DaSCfO
     SuccessCriteria:
       - success criteria
@@ -99,7 +99,7 @@ Standards:
       
   -
     Title: Branches In Git
-    Description: "Branches, Using Branches in Git, Problem Set: Git"
+    Description: "Branches, Using Branches in Git, Problem Set: Git, Activity: Merge Carnival"
     UID: 76a4001e9bc2734c2e93ede4b8f1297e
     SuccessCriteria:
       - success criteria
