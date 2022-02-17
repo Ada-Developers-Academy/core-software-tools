@@ -65,6 +65,10 @@ Standards:
       - success criteria
     ContentFiles:
       -
+        Type: Instructor
+        UID: 1763bf75
+        Path: /intro-to-git/activity-git-collaboration.instructor.md
+      -
         Type: Lesson
         UID: CltvdV
         Path: /intro-to-git/commits.md
@@ -85,13 +89,14 @@ Standards:
         UID: g1zQGU
         Path: /intro-to-git/problem-set-git-commands.md
       -
-        Type: Instructor
-        UID: NvHa7v
-        Path: /intro-to-git/activity-git-history.instructor.md
-      -
         Type: Lesson
+        UID: 500d9781
+        Path: /intro-to-git/activity-git-collaboration.md
+      -
+        Type: Resource
         UID: tSg96d
         Path: /intro-to-git/activity-git-history.md
+      
   -
     Title: Branches In Git
     Description: "Branches, Using Branches in Git, Problem Set: Git"
@@ -99,6 +104,10 @@ Standards:
     SuccessCriteria:
       - success criteria
     ContentFiles:
+      -
+        Type: Instructor
+        UID: bfe2e5a6-7731-44a5-9beb-e7b0e387954e
+        Path: /branches-in-git/activity-merge-carnival.instructor.md
       -
         Type: Lesson
         UID: 6c8aa01cc55f51f3cb90f1fd9f851595
@@ -111,6 +120,10 @@ Standards:
         Type: Lesson
         UID: a23c8692ae7b601177cd574151717d51
         Path: /branches-in-git/problem-set-git.md
+      -
+        Type: Lesson
+        UID: c421363b-ef64-4017-9e90-25ca0ba14f79
+        Path: /branches-in-git/activity-merge-carnival.md
   -
     Title: "External Resources"
     Description: "Learning Resources Provided by the Ada Community"
