@@ -32,12 +32,12 @@ Standards:
     ContentFiles:
       -
         Type: Lesson
-        UID: UZp4J5
-        Path: /managing-packages/virtual-environments-and-projects.md
-      -
-        Type: Lesson
         UID: abirop
         Path: /managing-packages/packages-and-managing-packages.md
+      -
+        Type: Lesson
+        UID: UZp4J5
+        Path: /managing-packages/virtual-environments-and-projects.md
   -
     Title: Using The Debugger
     Description: "Intro to Debuggers, VS Code Debugging, Debugging Pytest, Problem Set: Using Debugger"
