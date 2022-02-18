@@ -66,9 +66,7 @@ When we create a virtual environment, we can specify to create it with Python3. 
 
 Projects should always direct us to use virtual environments during project development.
 
-Here is a summarized version of the content below:
-
-Make a virtual environment:
+Here is a summary of the commands for working with a virtaul environment:
 
 ```bash
 ### Make a virtual environment ###
@@ -80,16 +78,15 @@ $ source venv/bin/activate
 (venv) $
 (venv) $ # should see (venv) now
 
+### Install Packages ###
+pip install -r requirements.txt
+# or #
+pip install <package_name>
+
 ### Deactivate ###
 (venv) $ deactivate
 $
 $ # should stop seeing (venv)
-```
-
-Activate:
-
-```bash
-$ source venv/bin/activate
 ```
 
 Read on for more details to understand what's going on.
@@ -111,7 +108,7 @@ $ python3 -m venv venv
 
 ### !callout-info
 
-#### Feedback
+#### `python3 -m venv venv`
 
 Running this command creates a new folder that contains files for your virtual environment. With the above command, it creates a new folder named `venv`.
 
@@ -143,6 +140,34 @@ Typically, the name of the virtual environment will be at the beginning of each 
 ```bash
 (venv) $ project-root-folder
 ```
+
+### Install Packages
+
+To install packages from a file that contains a list of necessary packages/dependencies into the virtual environment, we run the command: 
+
+```bash
+pip install -r requirements.txt
+```
+
+To install a single package into the virtual environment, we run the command:
+
+```bash
+pip install <package_name>
+```
+
+#### Feedback
+
+In the terminal, we should see text that indicates successful installation.
+
+![pip-install](../assets/venv-pip-install.png)
+
+### !callout-info
+
+#### `pip` not `pip3`
+
+When using `pip` to perform a global install we use the command `pip3`. `pip3` will specify to use `pip` with Python 3. When using `pip` inside our virtual environment, we use the command `pip` because our virtual environment is an environment for managing packages with Python 3.
+
+### !end-callout
 
 ### Deactivate at End of Workflow
 
@@ -177,6 +202,7 @@ What is the general correct order of steps for creating, then activating, then d
 
 1. `cd project-root-folder`
 1. `python3 -m venv venv`
+1. `pip install -r requirements.txt`
 1. `source venv/bin/activate`
 1. `deactivate`
 
