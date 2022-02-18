@@ -24,8 +24,8 @@ Standards:
         UID: EgvjDl
         Path: /git-setup/git-workflow-setup.md
   -
-    Title: "Virtual Environments"
-    Description: "Virtual Environments and Projects"
+    Title: "Managing Packages"
+    Description: "Virtual Environments, Installing Packages"
     UID: 1e053af0-420f-48d6-bcbd-b3edbb822879
     SuccessCriteria:
       - success criteria
@@ -33,7 +33,11 @@ Standards:
       -
         Type: Lesson
         UID: UZp4J5
-        Path: /virtual-environments/virtual-environments-and-projects.md
+        Path: /managing-packages/virtual-environments-and-projects.md
+      -
+        Type: Lesson
+        UID: abirop
+        Path: /managing-packages/packages-and-managing-packages.md
   -
     Title: Using The Debugger
     Description: "Intro to Debuggers, VS Code Debugging, Debugging Pytest, Problem Set: Using Debugger"
