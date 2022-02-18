@@ -25,7 +25,7 @@ Standards:
         Path: /git-setup/git-workflow-setup.md
   -
     Title: "Managing Packages"
-    Description: "Virtual Environments, Installing Packages"
+    Description: "Packages and Managing Packages, Virtual Environments"
     UID: 1e053af0-420f-48d6-bcbd-b3edbb822879
     SuccessCriteria:
       - success criteria
