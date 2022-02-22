@@ -5,7 +5,7 @@
 ## Learning Goals
 
 - Define package in Python
-- Explain that pip is a package installer for Python
+- Understand how to use pip to install Python packages
 
 ## Introduction
 
@@ -34,8 +34,9 @@ Packages can:
 - provide functionality
 - provide design patterns
 
-Popular Python packages include:
+Some Python packages include:
 
+1. Wonderwords, the package we used to generate random words for the Snowman project.
 1. NumPy, a package that gives functionality for complex math, including algebraic formulas
 1. Requests, a package that makes creating HTTP Requests more readable
 1. Pandas, a package designed for working with large and complex data sets and analyzing them

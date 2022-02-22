@@ -66,7 +66,7 @@ When we create a virtual environment, we can specify to create it with Python3. 
 
 Projects should always direct us to use virtual environments during project development.
 
-Here is a summary of the commands for working with a virtaul environment:
+Here is a summary of the commands for working with a virtual environment:
 
 ```bash
 ### Make a virtual environment ###
@@ -165,7 +165,7 @@ In the terminal, we should see text that indicates successful installation.
 
 #### `pip` not `pip3`
 
-When using `pip` to perform a global install we use the command `pip3`. `pip3` will specify to use `pip` with Python 3. When using `pip` inside our virtual environment, we use the command `pip` because our virtual environment is an environment for managing packages with Python 3.
+When performing a global install we use the command `pip3`. `pip3` will specify to use `pip` with Python 3. When using `pip` inside our virtual environment, we use the command `pip` because our virtual environment is an environment for managing packages with Python 3.
 
 ### !end-callout
 
