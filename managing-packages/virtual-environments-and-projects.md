@@ -195,7 +195,7 @@ $ project-root-folder
 * title: Virtual Environments and Projects
 ##### !question
 
-What is the general correct order of steps for creating, then activating, then deactivating a virtual environment?
+What is the general correct order of steps for creating, then activating, then installing the dependencies listed in a file, and finally deactivating a virtual environment?
 
 ##### !end-question
 ##### !answer
