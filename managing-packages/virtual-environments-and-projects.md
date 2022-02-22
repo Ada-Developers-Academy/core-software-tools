@@ -202,8 +202,8 @@ What is the general correct order of steps for creating, then activating, then d
 
 1. `cd project-root-folder`
 1. `python3 -m venv venv`
-1. `pip install -r requirements.txt`
 1. `source venv/bin/activate`
+1. `pip install -r requirements.txt`
 1. `deactivate`
 
 ##### !end-answer
