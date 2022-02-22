@@ -23,6 +23,10 @@ Standards:
         Type: Lesson
         UID: EgvjDl
         Path: /git-setup/git-workflow-setup.md
+      -
+        Type: Lesson
+        UID: CltvdV
+        Path: /git-setup/commits.md
   -
     Title: "Managing Packages"
     Description: "Packages and Managing Packages, Virtual Environments"
@@ -62,8 +66,8 @@ Standards:
         UID: a8e761cc-0d1f-49f9-a80a-6d2f79579a04
         Path: /intermediate-python-debugging/problem-set-using-the-debugger.md
   -
-    Title: Intro to Git Workflow
-    Description: "Commits, Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Git Collaboration"
+    Title: Collaborating with Git
+    Description: "Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Git Collaboration"
     UID: DaSCfO
     SuccessCriteria:
       - success criteria
@@ -72,10 +76,6 @@ Standards:
         Type: Instructor
         UID: 1763bf75
         Path: /intro-to-git/activity-git-collaboration.instructor.md
-      -
-        Type: Lesson
-        UID: CltvdV
-        Path: /intro-to-git/commits.md
       -
         Type: Lesson
         UID: wGkqyQ
