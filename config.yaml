@@ -108,6 +108,10 @@ Standards:
       - success criteria
     ContentFiles:
       -
+        Type: Instructor
+        UID: d1ede537-7930-4f83-9b13-2263081b3b2d
+        Path: /code-coverage/activity-code-coverage.instructor.md  
+      -
         Type: Lesson
         UID: 29c5d18e-7412-4bb3-aa03-dd24137cfe16
         Path: /code-coverage/activity-code-coverage.md  
