@@ -100,7 +100,17 @@ Standards:
         Type: Resource
         UID: tSg96d
         Path: /intro-to-git/activity-git-history.md
-      
+  -
+    Title: Code Coverage
+    Description: "Activity: Code Coverage"
+    UID: 58c95a4e
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 29c5d18e-7412-4bb3-aa03-dd24137cfe16
+        Path: /code-coverage/activity-code-coverage.md  
   -
     Title: Branches In Git
     Description: "Branches, Using Branches in Git, Problem Set: Git, Activity: Merge Carnival"
