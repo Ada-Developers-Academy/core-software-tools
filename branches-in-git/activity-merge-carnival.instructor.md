@@ -1,5 +1,7 @@
 # Instructor: Activity: Merge Carnival
 
+**Currently in core-industry-prep repo/unit. Topic: Industry Prep Fridays**
+
 Breakout Room number/assignments may need to be adjusted depending on size of class.
 
 In C16 this activity was done during Industry Prep Fridays
