@@ -118,3 +118,19 @@ Standards:
         Type: Lesson
         UID: b928006a
         Path: /resources/external-resources.md
+  -
+    Title: "Code Reviews"
+    Description: "Code Reviews & Github Pull Requests"
+    UID: 5ca5a675-2ca5-4d91-a610-260f17608bfe
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 64a8baf6-8bc7-49e1-ab8c-ff476e9b6e33
+        Path: /github-code-reviews/code-reviews.md
+      -
+        Type: Lesson
+        UID: 86b89d4a-1339-4ff5-bce6-8d6590c079be
+        Path: /github-code-reviews/github-code-reviews.md
+
