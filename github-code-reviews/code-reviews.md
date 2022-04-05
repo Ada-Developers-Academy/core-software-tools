@@ -29,7 +29,7 @@ Code reviews provide the following benefits.
   - Code reviews provide a useful tool for newer team members to explore and learn about the codebase.  That said, a new team member should **not** be the only reviewer.
   - Finally this allows developers to learn techniques, libraries and tricks from other members of the team.
 - **Architecture** - By involving several team members in a proposed change or feature a code review allows the team to examine the architecture of a feature and judge it in the larger context of the application.  Will the change scale?  Is it flexible and extensible?  Does it match or integrate with the architecture of the larger application.
-- **Finding Bugs** - As you might expect, having more eyes on code early in development allows the team to catch more bugs **before** they enter production, lowering costs and speeding up development time.  
+- **Finding Bugs** - As we might expect, having more eyes on code early in development allows the team to catch more bugs **before** they enter production, lowering costs and speeding up development time.  
 - **Verify Against Requirements** - The team can also check the submission against the requirements and verify that the code satisfies them.
 
 ## Types Of Code Reviews
@@ -52,7 +52,7 @@ Both mob programming and pair programming can also be done remotely using softwa
 
 ## What to Look For In A Review
 
-In a code review you should be looking for:
+In a code review we should be looking for:
 
 - Edge Cases
   - Are there circumstances that will cause this code to fail unexpectedly?  
@@ -64,14 +64,14 @@ In a code review you should be looking for:
     - Is there anything missing from the submission or functionality not found in the requirements?
 - Performance
   - Is this code efficient?
-  - Did you do performance testing?  Can you automate performance and load testing?
+  - Did we do performance testing?  Can we automate performance and load testing?
 - Security
   - Are there security advisories for libraries being used?
   - Does this safeguard data adequately?
 
 ## Code Reviews Are A Discussion
 
-As an author it's important to respond in a timely fashion to each actionable comment on your pull request, but there may be suggestions or requests the reviewer makes that you disagree with or need more clarity on.  It's important to challenge comments or suggestions that you disagree with or need more clarity on.  Sometimes the reviewer will lack the context behind a coding decision and a simple explanation from you will resolve it.  If you both continue to disagree, it can be helpful to get input from another team member.  Remember that a code review is a discussion, not a dictated list of required changes.
+As an author it's important to respond in a timely fashion to each actionable comment on our pull request, but there may be suggestions or requests the reviewer makes that we disagree with or need more clarity on.  It's important to challenge comments or suggestions that we disagree with or need more clarity on.  Sometimes the reviewer will lack the context behind a coding decision and a simple explanation from us will resolve it.  If both continue to disagree, it can be helpful to get input from another team member.  Remember that a code review is a discussion, not a dictated list of required changes.
 
 ## Code Review Tips for Success
 
@@ -89,7 +89,7 @@ As an author it's important to respond in a timely fashion to each actionable co
 
 ## Beyond The Code Review
 
-There may come a time where you notice architectural issues with the application **beyond** the code being submitted in a specific PR.  Maybe your app is reaching the limits of it's scalability or the application is less flexible than it could be.  You may have ideas to address these issues.  This is **not** something to discuss in a code review.  Instead, a broader architectural exploration is something to discuss with a team lead and, if justified, scheduling a timeboxed team meeting to present and discuss your ideas.  
+There may come a time where we notice architectural issues with the application **beyond** the code being submitted in a specific PR.  Maybe our app is reaching the limits of it's scalability or the application is less flexible than it could be.  We may have ideas to address these issues.  This is **not** something to discuss in a code review.  Instead, a broader architectural exploration is something to discuss with the team lead and, if justified, scheduling a timeboxed team meeting to present and discuss our ideas.  
 
 ## Summary
 
