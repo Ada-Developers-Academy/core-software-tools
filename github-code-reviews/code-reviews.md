@@ -85,7 +85,7 @@ As an author it's important to respond in a timely fashion to each actionable co
   - Don't review code for more than an hour.  Few can stay focused that long.
   - It can be helpful to give your reviewers a checklist of things to look at.
 
-![Code Review Meme](images/code-review-meme.jpg)
+![Code Review Meme](/assets/code-reviews/code-review-meme.jpg)
 
 ## Beyond The Code Review
 
