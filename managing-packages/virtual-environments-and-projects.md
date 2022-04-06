@@ -143,7 +143,7 @@ Typically, the name of the virtual environment will be at the beginning of each 
 
 ### Install Packages
 
-To install packages from a file that contains a list of necessary packages/dependencies into the virtual environment, we run the command: 
+To install packages from a file that contains a list of necessary packages/dependencies (e.g. `requirements.txt`) into the virtual environment, we run the command: 
 
 ```bash
 pip install -r requirements.txt
