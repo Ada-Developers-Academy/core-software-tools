@@ -32,14 +32,6 @@ Code reviews provide the following benefits:
 - **Finding Bugs** - As we might expect, having more eyes on code early in development allows the team to catch more bugs **before** they enter production, lowering costs and speeding up development time. 
 - **Verify Against Requirements** - The team can check the submission against the requirements and verify that the code satisfies them.
 
-## Types Of Code Reviews
-
-There are several different ways to review code.
-
-### Pull Requests
-
-Github and other version management software systems provide methods to review suggested changes before accepting them into the `main` branch. This is called a _Pull Request_ or PR. A PR allows team members to comment on and propose changes on a branch before it is merged in. 
-
 ## What to Look For In A Review
 
 In a code review, we should be looking for:
