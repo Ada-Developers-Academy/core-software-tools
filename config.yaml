@@ -108,6 +108,21 @@ Standards:
         UID: a23c8692ae7b601177cd574151717d51
         Path: /branches-in-git/problem-set-git.md
   -
+    Title: "Code Reviews"
+    Description: "Code Reviews & Github Pull Requests"
+    UID: 5ca5a675-2ca5-4d91-a610-260f17608bfe
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 64a8baf6-8bc7-49e1-ab8c-ff476e9b6e33
+        Path: /github-code-reviews/code-reviews.md
+      -
+        Type: Lesson
+        UID: 86b89d4a-1339-4ff5-bce6-8d6590c079be
+        Path: /github-code-reviews/github-code-reviews.md
+  -
     Title: "External Resources"
     Description: "Learning Resources Provided by the Ada Community"
     UID: 19d7c672-ae13-407d-9cf2-d0615e75a726
