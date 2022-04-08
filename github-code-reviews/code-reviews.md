@@ -32,27 +32,6 @@ Code reviews provide the following benefits:
 - **Finding Bugs** - As we might expect, having more eyes on code early in development allows the team to catch more bugs **before** they enter production, lowering costs and speeding up development time. 
 - **Verify Against Requirements** - The team can check the submission against the requirements and verify that the code satisfies them.
 
-<<<<<<< HEAD
-=======
-## Types Of Code Reviews
-
-There are several different ways to review code.
-
-### Pull Requests
-
-Github and other version management software systems provide methods to review suggested changes before accepting them into the `main` branch. This is called a _Pull Request_ or PR. A PR allows team members to comment on and propose changes on a branch before it is merged in. 
-
-### Pair Programming
-
-Another way to provide a review on code is through _pair programming_. In pair programming, two developers work on the feature as a team. The developers take turns with one _driving_, or writing the code and focusing on the immediate task at hand. Meanwhile, the second developer _navigates_ or looks at the work from a higher level guiding around complications and obstacles the driver cannot focus on in the moment.
-
-### Mob Programming
-
-A third method is called [_mob programming_](https://en.wikipedia.org/wiki/Mob_programming) where a team of developers works on the same feature, at the same time, together. One developer drives while the rest of the team navigates. Mob programming can be very useful on complicated, tricky, or core features where wide understanding on the team is essential. Sometimes it is useful to have as many eyes on the code as possible.
-
-Both mob programming and pair programming can also be done remotely using software such as [Visual Studio's Liveshare extension](https://code.visualstudio.com/blogs/2017/11/15/live-share). They also have the advantage of a very short feedback loop, while a more common pull request review happens asynchronously and can happen hours or even days later. 
-
->>>>>>> 7bb0067927054214251b5c2b27f5af534a1deb2f
 ## What to Look For In A Review
 
 In a code review, we should be looking for:
@@ -94,23 +73,17 @@ As an author of a pull request, it is important to respond in a timely fashion t
 
 There may come a time where we notice architectural issues with the application **beyond** the code being submitted in a specific PR. Maybe our app is reaching the limits of it's scalability or the application is less flexible than it could be. We may have ideas to address these issues. This is **not** something to discuss in a code review. Instead, a broader architectural exploration is something to discuss with the team lead and, if justified, we may schedule a timeboxed team meeting to present and discuss our ideas. 
 
-## Types Of Code Reviews
-
-There are several different ways to review code.
-
-### Pull Requests
-
-Github and other version management software sytems provide methods to review suggested changes before accepting them into the main branch.  This is called a _Pull Request_ or PR.  A PR allows team members to comment on and propose changes on a branch before it is merged in.  
+## Additional Ways to Provide Review on Code
 
 ### Pair Programming
 
-Another way to provide a review on code is through _pair programming_.  In pair programming two developers work on the feature as a team.  The developers take turns with one _driving_, or writing the code and focusing on the immediate task at hand.  Meanwhile the second developer _navigates_ or looks at the work from a higher level guiding around complications and obsticals the driver cannot focus on in the moment.
+Another way to provide a review on code is through _pair programming_. In pair programming, two developers work on the feature as a team. The developers take turns with one _driving_, or writing the code and focusing on the immediate task at hand. Meanwhile, the second developer _navigates_ or looks at the work from a higher level guiding around complications and obstacles the driver cannot focus on in the moment.
 
 ### Mob Programming
 
-A third method is called [_mob programming_](https://en.wikipedia.org/wiki/Mob_programming) where a team of developers works on the same feature, at the same time, together.  One developer drives while the rest of the team navigate.  Mob programming can be very useful on complicated, tricky or core features where wide understanding on the team is essential or where it is useful to have as many eyes on the code as possible.
+Another code review method is called [_mob programming_](https://en.wikipedia.org/wiki/Mob_programming) where a team of developers works on the same feature, at the same time, together. One developer drives while the rest of the team navigates. Mob programming can be very useful on complicated, tricky, or core features where wide understanding on the team is essential. Sometimes it is useful to have as many eyes on the code as possible.
 
-Both mob programming and pair programming can also be done remotely using software such as [Visual Studio's Liveshare extension](https://code.visualstudio.com/blogs/2017/11/15/live-share).  They also have the advantage of a very short feedback loop, while a more common pull request review happens asynchronouslly and can happen hours or even days later.  
+Both mob programming and pair programming can also be done remotely using software such as [Visual Studio's Liveshare extension](https://code.visualstudio.com/blogs/2017/11/15/live-share). They also have the advantage of a very short feedback loop, while a more common pull request review happens asynchronously and can happen hours or even days later. 
 
 ## Summary
 
