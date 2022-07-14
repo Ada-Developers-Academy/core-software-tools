@@ -303,6 +303,25 @@ It is common to change the default editor for git from vim to something else, su
 - We create a commit and a commit message with `$ git commit -m "Message"`
 - We may need to navigate some screens with alternative syntax
 
+## Pushing Commits
+
+Thus far we have used `git` to make commits on our local machine. To track these changes on the remote repository on GitHub we need to _push_ our commits. We can do that with this command:
+
+```
+$ git push
+```
+
+We will cover `git push` in more detail in future lessons on **Collaborating with Git**. 
+
+<!-- available callout types: info, success, warning, danger, secondary, star  -->
+### !callout-info
+
+## Authentication
+
+When we run the command `git push` for the first time, the terminal will prompt us for a username and password. Authenticating to GitHub is covered in the next lesson **Connecting To Github With a PAT**
+
+### !end-callout
+
 ## Check for Understanding
 <!-- Definitions -->
 
