@@ -48,23 +48,52 @@ Then we can copy the token.  **We must copy the token before leaving this page, 
 
 ## Using the Token in Git
 
-We can then use the token in git by cloning a repository using HTTPS.
+We can then use the token in git by forking, cloning, and pushing changes to a repository using HTTPS.
 
-We can first go to the [Python Fizbuzz Repository](https://github.com/AdaGold/python-fizzbuzz).
+First go to the [Python Fizbuzz Repository](https://github.com/AdaGold/python-fizzbuzz).
+
+Fork the repository to your GitHub account.
+
+![Fork](../assets/github-setup__fork-repo1.png)
+![Fork Repository](../assets/github-setup__fork-repo2.png)
 
 Then click on the **Code** button and select **https** and copy the link.
 
 ![Clone Repository](../assets/github-setup__clone-repo.png)
 
-Then we can clone the repository using the token.  We should **not** use a password, but rather the copied personal access token.  We can use `cmd-v` to paste the token into the terminal.
+Clone the repository with the following command: 
 
 ```
-$ git clone https://github.com/AdaGold/python-fizzbuzz.git
+git clone https://github.com/beccaelenzil/python-fizzbuzz.git
+```
+
+Move your location into the local repository:
+
+```
+cd python-fizzbuzz
+```
+
+Open the directory in VS Code
+
+```
+code .
+```
+
+Make a change to one of the files and save the change. For example, you could change the title of the readme to include your name.
+
+Finally, `add`, `commit`, and `push` your changes.
+
+After the `git push` command, we will be prompted for a **Username** and **Password**.  We should **not** use a password, but rather the copied personal access token.  We can use `cmd-v` to paste the token into the terminal.
+
+```
+$ git add readme.md
+$ git commit -m "added my name to the readme"
+$ git push
 Username: your_username
 Password: your_token
 ```
 
-When the repository is downloaded we know that we have successfully authenticated with Github and will no longer need to re-authenticate until the PAT expires.
+We can check the remote repository on GitHub to confirm that we have successfully authenticated and pushed our changes. We will not need to authenticate again until the PAT expires.
 
 ## Resources
 
