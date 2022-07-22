@@ -1,7 +1,4 @@
-
 # Activity: Merge Carnival
-
-**Currently in core-industry-prep repo/unit. Topic: Industry Prep Fridays**
 
 ## Goals
 
