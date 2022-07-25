@@ -67,7 +67,7 @@ Standards:
         Path: /intermediate-python-debugging/problem-set-using-the-debugger.md
   -
     Title: Collaborating with Git
-    Description: "Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands"
+    Description: "Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Collaborating with Git and GitHub"
     UID: DaSCfO
     SuccessCriteria:
       - success criteria
@@ -88,9 +88,13 @@ Standards:
         Type: Lesson
         UID: g1zQGU
         Path: /intro-to-git/problem-set-git-commands.md
+      -
+        Type: Lesson
+        UID: 8821796c-3609-4091-812e-0f642f6823fa
+        Path: /intro-to-git/activity-git-collaboration.md
   -
     Title: Branches In Git
-    Description: "Branches, Using Branches in Git, Problem Set: Git"
+    Description: "Branches, Using Branches in Git, Problem Set: Git, Activity: Merge Carnival"
     UID: 76a4001e9bc2734c2e93ede4b8f1297e
     SuccessCriteria:
       - success criteria
@@ -107,9 +111,13 @@ Standards:
         Type: Lesson
         UID: a23c8692ae7b601177cd574151717d51
         Path: /branches-in-git/problem-set-git.md
+      -
+        Type: Lesson
+        UID: 7166c21e-45ef-4189-bf0f-4f78a44fbab5
+        Path: /branches-in-git/git-branching-merge-carnival.md
   -
     Title: "Code Reviews"
-    Description: "Code Reviews & Github Pull Requests"
+    Description: "Code Reviews, Github Pull Requests, Activity: Code Reviews"
     UID: 5ca5a675-2ca5-4d91-a610-260f17608bfe
     SuccessCriteria:
       - success criteria
@@ -122,6 +130,10 @@ Standards:
         Type: Lesson
         UID: 86b89d4a-1339-4ff5-bce6-8d6590c079be
         Path: /github-code-reviews/github-code-reviews.md
+      -
+        Type: Lesson
+        UID: bd734793-2da2-43db-986b-bf51c6c23ba6
+        Path: /github-code-reviews/activity-code-reviews.md
   -
     Title: "External Resources"
     Description: "Learning Resources Provided by the Ada Community"
