@@ -24,21 +24,6 @@ Standards:
         UID: a8e761cc-0d1f-49f9-a80a-6d2f79579a04
         Path: /intermediate-python-debugging/problem-set-using-the-debugger.md
   -
-    Title: "Managing Packages"
-    Description: "Packages and Managing Packages, Virtual Environments"
-    UID: 1e053af0-420f-48d6-bcbd-b3edbb822879
-    SuccessCriteria:
-      - success criteria
-    ContentFiles:
-      -
-        Type: Lesson
-        UID: abirop
-        Path: /managing-packages/packages-and-managing-packages.md
-      -
-        Type: Lesson
-        UID: UZp4J5
-        Path: /managing-packages/virtual-environments-and-projects.md
-  -
     Title: Intro to Git
     Description: "Intro to Git,  Git setup with Access Token, Git Workflow Setup, Commits"
     UID: 37ec02c8-be30-43d4-9d9b-af37e7bb7ff7
@@ -65,6 +50,21 @@ Standards:
         Type: Lesson
         UID: 6c114fa6
         Path: /git-setup/github-setup-with-access-token.md
+  -
+    Title: "Managing Packages"
+    Description: "Packages and Managing Packages, Virtual Environments"
+    UID: 1e053af0-420f-48d6-bcbd-b3edbb822879
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: abirop
+        Path: /managing-packages/packages-and-managing-packages.md
+      -
+        Type: Lesson
+        UID: UZp4J5
+        Path: /managing-packages/virtual-environments-and-projects.md
   -
     Title: Collaborating with Git
     Description: "Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Collaborating with Git and GitHub"
