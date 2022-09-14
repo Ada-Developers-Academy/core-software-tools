@@ -1,6 +1,29 @@
 ---
 Standards:
   -
+    Title: Using The Debugger
+    Description: "Intro to Debuggers, VS Code Debugging, Debugging Pytest, Problem Set: Using Debugger"
+    UID: eb702636-a782-4ed3-8fb5-daca0aea5206
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 26f0b589-cb0f-4539-a4a6-1cb64f9ee28b
+        Path: /intermediate-python-debugging/intro-to-debuggers.md
+      -
+        Type: Lesson
+        UID: 506303a8-2fab-4283-98b3-9b4576721620
+        Path: /intermediate-python-debugging/debugging-with-vs-code.md
+      -
+        Type: Lesson
+        UID: 0cf83e0c-4483-4a15-8713-f35c425a16e1
+        Path: /intermediate-python-debugging/debugging-with-pytest.md
+      -
+        Type: Lesson
+        UID: a8e761cc-0d1f-49f9-a80a-6d2f79579a04
+        Path: /intermediate-python-debugging/problem-set-using-the-debugger.md
+  -
     Title: Intro to Git
     Description: "Intro to Git,  Git setup with Access Token, Git Workflow Setup, Commits"
     UID: 37ec02c8-be30-43d4-9d9b-af37e7bb7ff7
@@ -42,29 +65,6 @@ Standards:
         Type: Lesson
         UID: UZp4J5
         Path: /managing-packages/virtual-environments-and-projects.md
-  -
-    Title: Using The Debugger
-    Description: "Intro to Debuggers, VS Code Debugging, Debugging Pytest, Problem Set: Using Debugger"
-    UID: eb702636-a782-4ed3-8fb5-daca0aea5206
-    SuccessCriteria:
-      - success criteria
-    ContentFiles:
-      -
-        Type: Lesson
-        UID: 26f0b589-cb0f-4539-a4a6-1cb64f9ee28b
-        Path: /intermediate-python-debugging/intro-to-debuggers.md
-      -
-        Type: Lesson
-        UID: 506303a8-2fab-4283-98b3-9b4576721620
-        Path: /intermediate-python-debugging/debugging-with-vs-code.md
-      -
-        Type: Lesson
-        UID: 0cf83e0c-4483-4a15-8713-f35c425a16e1
-        Path: /intermediate-python-debugging/debugging-with-pytest.md
-      -
-        Type: Lesson
-        UID: a8e761cc-0d1f-49f9-a80a-6d2f79579a04
-        Path: /intermediate-python-debugging/problem-set-using-the-debugger.md
   -
     Title: Collaborating with Git
     Description: "Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Collaborating with Git and GitHub"
