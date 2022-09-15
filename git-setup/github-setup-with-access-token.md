@@ -86,7 +86,7 @@ Finally, `add`, `commit`, and `push` your changes.
 After the `git push` command, we will be prompted for a **Username** and **Password**.  We should **not** use a password, but rather the copied personal access token.  We can use `cmd-v` to paste the token into the terminal.
 
 ```
-$ git add readme.md
+$ git add README.md
 $ git commit -m "added my name to the readme"
 $ git push
 Username: your_username
