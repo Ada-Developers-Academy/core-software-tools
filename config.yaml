@@ -1,8 +1,8 @@
 ---
 Standards:
   -
-    Title: Using The Debugger
-    Description: "Intro to Debuggers, VS Code Debugging, Debugging Pytest, Problem Set: Using Debugger"
+    Title: Using The Debugger (Optional)
+    Description: "Optional: Intro to Debuggers, VS Code Debugging, Debugging Pytest, Problem Set: Using Debugger"
     UID: eb702636-a782-4ed3-8fb5-daca0aea5206
     SuccessCriteria:
       - success criteria
@@ -24,8 +24,8 @@ Standards:
         UID: a8e761cc-0d1f-49f9-a80a-6d2f79579a04
         Path: /intermediate-python-debugging/problem-set-using-the-debugger.md
   -
-    Title: Intro to Git
-    Description: "Intro to Git,  Git setup with Access Token, Git Workflow Setup, Commits"
+    Title: Intro to Git (Optional)
+    Description: "Optional: Intro to Git,  Git setup with Access Token, Git Workflow Setup, Commits"
     UID: 37ec02c8-be30-43d4-9d9b-af37e7bb7ff7
     SuccessCriteria:
       - success criteria
@@ -51,8 +51,8 @@ Standards:
         UID: 6c114fa6
         Path: /git-setup/github-setup-with-access-token.md
   -
-    Title: "Managing Packages"
-    Description: "Packages and Managing Packages, Virtual Environments"
+    Title: "Managing Packages (Optional)"
+    Description: "Optional: Packages and Managing Packages, Virtual Environments"
     UID: 1e053af0-420f-48d6-bcbd-b3edbb822879
     SuccessCriteria:
       - success criteria
