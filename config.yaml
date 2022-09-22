@@ -1,13 +1,8 @@
 ---
 Standards:
   -
-<<<<<<< HEAD
     Title: Using The Debugger (Optional)
     Description: "Optional: Intro to Debuggers, VS Code Debugging, Debugging Pytest, Problem Set: Using Debugger"
-=======
-    Title: Using The Debugger
-    Description: "Intro to Debuggers, VS Code Debugging, Debugging Pytest, Problem Set: Using Debugger"
->>>>>>> 8330c2174df42c44990ea6101024988105a50be4
     UID: eb702636-a782-4ed3-8fb5-daca0aea5206
     SuccessCriteria:
       - success criteria
