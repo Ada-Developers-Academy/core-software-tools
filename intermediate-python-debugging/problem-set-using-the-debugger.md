@@ -85,50 +85,49 @@ Repeat this process until the program stops crashing, and the bug is fixed. Duri
 ### Second Bug: Debugging a Failing Test
 
 One of the tests is failing, find the failing test in `tests/test_order.py`.  
+![Failing test](../assets/vs-code-debugger/exercise-failing-test.png)  
+*Fig. An example of a failing test in VS Code. Since the test is failing, the status icon is displayed as a red circled X.*
 
-![Failing test](../assets/vs-code-debugger/exercise-failing-test.png)
-*Fig. An example of a failing test in VS Code*
-
-Create a breakpoint in the failing test `test_calculate_total_with_multiple_products` and use the step-into and step over commands to trace through the code and see why the test is failing.  You can click on the `Debug Test` link above the test function to run that one test in the debugger.
+Create a breakpoint in the failing test `test_calculate_total_with_multiple_products` and use the step-into and step over commands to trace through the code and see why the test is failing.  You can right-click the status icon positioned to the left of the test name to reveal the `Debug Test` option. Click it to run that one test in the debugger.
 
 Once you identify the cause of the failure, adjust the code to make the test pass and then remove all the break points.  Make sure to run the test to verify that it passes.
 
 ### !callout-warning
 
-## Discover Tests to Show the `Debug Test` Prompt
+## Discover Tests to Show the Test Status Icons
 
-If you don't see the `Debug Test` prompts (VS Code calls this a *CodeLens*) in your test file, you may need to let VS Code _discover_ your tests! Expand the section below for a review of how to do this!
+If you don't see status icons to left of the test names in your test file, you may need to let VS Code _discover_ your tests! Expand the section below for a review of how to do this!
 
 ### !end-callout
 
 <details style="max-width: 700px; margin: auto;">
     <summary>
-      Click here for the steps to enable the Debug Test prompts.
+      Click here for how to get VS Code to notice your tests.
     </summary>
 
 #### Verify that VS Code is using your `venv`.
 
-1. Locate the Python version displayed near the bottom-left corner of VS Code.
+1. Locate the Python version displayed near the bottom-left corner of VS Code.  
 ![Selected Python version at the bottom-left of the VS Code window](../assets/intermediate-python-debugging_problem-set-using-the-debugger_check-python-version.png)
 
 1. If it doesn't end with `('venv')`, click it to open the Python version picker.
-    1. Locate the option ending in `('venv')` and click it.
+    1. Locate the option ending in `('venv')` and click it.  
 ![Selected Python version at the bottom-left of the VS Code window](../assets/intermediate-python-debugging_problem-set-using-the-debugger_pick-python-version.png)
 
 #### Discover your tests.
 
 1. Open the Command Palette (⇧⌘P).
 1. Start typing `discover` until you see a choice for `Python: Discover Tests` appear.
-1. Click the option for `Python: Discover Tests`.
+1. Click the option for `Python: Discover Tests`.  
 ![Command Palette showing the recommended option Python: Discover Tests after typing `dis`](../assets/intermediate-python-debugging_problem-set-using-the-debugger_discover-tests.png)
 
 #### Configure the test framework if we get a warning.
 
-1. Click `Enable and configure a Test Framework`.
+1. Click `Enable and configure a Test Framework`.  
 ![Prompt to Enable and configure a Test Framework](../assets/intermediate-python-debugging_problem-set-using-the-debugger_configure-tests.png)
-2. Select `pytest` as the test framework.
+2. Select `pytest` as the test framework.  
 ![Prompt to pick a test framework, with pytest selected](../assets/intermediate-python-debugging_problem-set-using-the-debugger_pick-framework.png)
-3. Select `tests` as the directory containing the tests.
+3. Select `tests` as the directory containing the tests.  
 ![Prompt to pick a test directory, with tests selected](../assets/intermediate-python-debugging_problem-set-using-the-debugger_pick-directory.png)
 
 </details>
@@ -138,4 +137,4 @@ If you don't see the `Debug Test` prompts (VS Code calls this a *CodeLens*) in y
 
 ## Summary
 
-We have now successfully used the debugger with breakpoints, watches to trace through a program and identify both a runtime and a logical error.  When we have problems with our applications in the future the debugger should be one tool we use to identify and repair malfunctioning code.
+We have now successfully used the debugger with breakpoints and watches to trace through a program and identify both a runtime and a logical error.  When we have problems with our applications in the future the debugger should be one tool we use to identify and repair malfunctioning code.
