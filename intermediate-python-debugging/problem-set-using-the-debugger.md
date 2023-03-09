@@ -86,9 +86,9 @@ Repeat this process until the program stops crashing, and the bug is fixed. Duri
 
 One of the tests is failing, find the failing test in `tests/test_order.py`.  
 ![Failing test](../assets/vs-code-debugger/exercise-failing-test.png)  
-*Fig. An example of a failing test in VS Code. Since the test is failing, the status icon is displayed as a red circled X.*
+*Fig. An example of a failing test in VS Code.  Since the test is failing, the status icon is displayed as a red circled X.*
 
-Create a breakpoint in the failing test `test_calculate_total_with_multiple_products` and use the step-into and step over commands to trace through the code and see why the test is failing.  You can right-click the status icon positioned to the left of the test name to reveal the `Debug Test` option. Click it to run that one test in the debugger.
+Create a breakpoint in the failing test `test_calculate_total_with_multiple_products` and use the step-into and step over commands to trace through the code and see why the test is failing.  You can right-click the status icon positioned to the left of the test name to reveal the `Debug Test` option.  Click it to run that one test in the debugger.
 
 Once you identify the cause of the failure, adjust the code to make the test pass and then remove all the break points.  Make sure to run the test to verify that it passes.
 
@@ -96,7 +96,7 @@ Once you identify the cause of the failure, adjust the code to make the test pas
 
 ## Discover Tests to Show the Test Status Icons
 
-If you don't see status icons to left of the test names in your test file, you may need to let VS Code _discover_ your tests! Expand the section below for a review of how to do this!
+If you don't see status icons to left of the test names in your test file, you may need to let VS Code _discover_ your tests!  Expand the section below for a review of how to do this!
 
 ### !end-callout
 

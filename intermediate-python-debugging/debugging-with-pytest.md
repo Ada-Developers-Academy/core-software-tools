@@ -51,7 +51,7 @@ While the image below shows another test which passes.
 ![Passing test](../assets/vs-code-debugger/passing-test-vs-code.png)  
 *Fig. An example of a passing test in VS Code, indicated by a green circled check beside the test name.*
 
-You can then add breakpoints and use watches to examine why the test is not passing. After setting up your breakpoints, right-click the passing or failing status icon for the option to `Debug Test`.
+You can then add breakpoints and use watches to examine why the test is not passing.  After setting up your breakpoints, right-click the passing or failing status icon for the option to `Debug Test`.
 
 ## Summary
 
