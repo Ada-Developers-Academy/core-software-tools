@@ -23,18 +23,18 @@ Clone the [Python-FizzBuzz](https://github.com/adagold/python-fizzbuzz) project 
 
 You can set up VS Code to run the tests in the editor with `command-shift-p` and enter `Python: Configure Tests`.  
 
-![configure tests](../assets/vs-code-debugger/python-configure-tests.png)
+![configure tests](../assets/vs-code-debugger/python-configure-tests.png)  
 *Fig. Telling VS Code you want to configure tests with Python.*
 
 
 VS Code will ask you which test framework you want to use.  Select Pytest.  VS Code might ask you to install Pytest, which you can do so.
 
-![Select Test framework to use](../assets/vs-code-debugger/select-pytest.png)
+![Select Test framework to use](../assets/vs-code-debugger/select-pytest.png)  
 *Fig. Telling VS code which test framework you use (Pytest).*
 
 Then select the folder containing your tests.
 
-![Select the tests folder](../assets/vs-code-debugger/select-tests-dir.png)
+![Select the tests folder](../assets/vs-code-debugger/select-tests-dir.png)  
 *Fig. Selecting the tests directory*
 
 Then VS code will provide feedback on your tests allowing you to run them in the editor individually or run a test in the debugger with a click.
@@ -44,16 +44,14 @@ Then VS code will provide feedback on your tests allowing you to run them in the
 Once configured VS Code can run tests in the debugger using links above each test.
 
 The image below is an example of a test in VS code which is failing.
-
 ![Failing test](../assets/vs-code-debugger/failing-test-vs-code.png)  
-*Fig. An example of a failing test in VS Code.*
+*Fig. An example of a failing test in VS Code, indicated by a red circled X beside the test name.*
 
-While the image below shows another test which passes.  Notice the checkmarks next to `Run Test` and `Debug Test`.
-
+While the image below shows another test which passes.
 ![Passing test](../assets/vs-code-debugger/passing-test-vs-code.png)  
-*Fig. An example of a passing test in VS Code*
+*Fig. An example of a passing test in VS Code, indicated by a green circled check beside the test name.*
 
-You can then add breakpoints and use watches to examine why the test is not passing.
+You can then add breakpoints and use watches to examine why the test is not passing.  After setting up your breakpoints, right-click the passing or failing status icon for the option to `Debug Test`.
 
 ## Summary
 
