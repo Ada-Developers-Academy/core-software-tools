@@ -23,13 +23,25 @@ Follow these guidelines:
 
 - [ ] Confirm that there are no changes in your local changes area or staging area with `$ git status`
 
-- [ ] Run the tests using `$ python3 -m pytest main.py`
+- [ ] Open the main file using `$ code main.py`.
 
-  - This requires a global installation of `pytest`. If you don't have a global installation of `pytest`, skip this step
+  - Review the contents of `main.py` in VS Code. Observe the function `always_returns_true()` is currently returning `False`.
+  
+- [ ] Update the `always_returns_true()` function to return `True`.
 
-- [ ] Make the test pass - Re-run the tests with `$ python3 -m pytest main.py`
+  - Save the file and return to the terminal to continue.
 
-  - If you can't run tests, read through the code and change the code to the best of your ability - You must change at least one line of code
+### !callout-info
+
+## Optionally, try running the test file
+
+Feel free to run the test in the `main.py` file. This can be done before changing the function to see it fail, and after changing the function to see it pass. Or feel free to skip this. The main goal is to change the file so we can add and commit it, not to actually run the test.
+
+<br>
+
+To run the test, first we'll need to set up a `venv` and install `pytest`. Then we can use the command `$ python3 -m pytest main.py` or `$ pytest main.py`. Notice the filename must be included since it doesn't follow the naming convention that `pytest` expects to detect test files. Try it out if you'd like the practice!
+
+### !end-callout
 
 - [ ] Confirm that you have one file changed in your local changes area with `$ git status`
 
