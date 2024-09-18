@@ -67,7 +67,7 @@ Standards:
         Path: /intermediate-python-debugging/problem-set-using-the-debugger.md
   -
     Title: Collaborating with Git
-    Description: "Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands, Activity: Collaborating with Git and GitHub"
+    Description: "Collaborating, Reviewing Git History, Git Cheatsheet, Problem Set: Git Commands"
     UID: DaSCfO
     SuccessCriteria:
       - success criteria
@@ -88,10 +88,6 @@ Standards:
         Type: Lesson
         UID: g1zQGU
         Path: /intro-to-git/problem-set-git-commands.md
-      -
-        Type: Lesson
-        UID: 8821796c-3609-4091-812e-0f642f6823fa
-        Path: /intro-to-git/activity-git-collaboration.md
   -
     Title: Branches In Git
     Description: "Branches, Using Branches in Git, Problem Set: Git, Activity: Merge Carnival"
