@@ -180,21 +180,53 @@ Nakita just finished a feature that analyzes weather data. She made three commit
 
 ## Proposed Workflow
 
-To summarize these concepts and commands, here is a proposed development workflow:
+To summarize these concepts and commands, here is a proposed development workflow. Remember that any `<text_in_angle_brackets>` is a placeholder for you to fill in with your own text. Replace it (the brackets, too) with an appropriate value as described by the placeholder!
 
-1. Confirm that the project is in the state you expect with `$ git status`
-1. Determine what your next task or goal is.
-1. Start running tests, writing code, etc.
-1. When you have a small, meaningful change, get ready to make a commit:
-   1. Move the intended changes from local changes area to staging with `$ git add`
-   1. Create a commit and a commit message from the changes in staging with `$ git commit -m ""`
-   1. Review the commit with `$ git show`
-1. Create at least one commit. Continue to write code and make commits.
-1. Fetch and merge any new commits from `origin` with `$ git pull`
-1. Review the code; check that the tests still pass, and the code still runs
+1. Confirm that the project is in the state you expect with
+   ```sh
+   $ git status
+   ```
+
+2. Determine what your next task or goal is.
+3. Start running tests, writing code, etc.
+4. When you have a small, meaningful change, get ready to make a commit:
+   1. Move the intended changes from local changes area to staging with
+      ```sh
+      $ git add <path_to_file_with_changes>
+      ```
+
+      If you are in the root directory of the project and want to add all of the changes that `git status` reported, you can use
+      ```sh
+      $ git add .
+      ```
+   2. Create a commit and a commit message from the changes in staging with
+      ```sh
+      $ git commit -m "<short_message_describing_your_commit>"
+      ```
+   3. Review the commit with
+      ```sh
+      $ git show
+      ```
+5. Create at least one commit. Continue to write code and make commits.
+6. Fetch and merge any new commits from `origin` with
+   ```sh
+   $ git pull
+   ```
+7. Review the code; check that the tests still pass, and the code still runs
    - If the code is broken, restart this process and make commits that will fix the problem
-1. Send all of your commits to `origin` with `$ git push`
-1. Review your work with `$ git status` and `$ git log`
+8. Send all of your commits to `origin` with
+   ```sh
+   $ git push
+   ```
+9. Review your work with
+   ```sh
+   $ git status
+   ```
+
+   and
+   ```sh
+   $ git log
+   ```
 
 ## Check for Understanding
 <!-- Definitions -->
