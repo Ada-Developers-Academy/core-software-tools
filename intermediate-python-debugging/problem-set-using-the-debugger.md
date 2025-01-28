@@ -94,9 +94,9 @@ Once you identify the cause of the failure, adjust the code to make the test pas
 
 ### !callout-warning
 
-## Discover Tests to Show the Test Status Icons
+## Getting VS Code to Notice Your Tests
 
-If you don't see status icons to left of the test names in your test file, you may need to let VS Code _discover_ your tests!  Expand the section below for a review of how to do this!
+If you don't see status icons to left of the test names in your test file, you may need to verify that your virtual environment is being used or that the testing framework has been configured!  Expand the section below for a review of how to do this!
 
 ### !end-callout
 
@@ -114,13 +114,6 @@ If you don't see status icons to left of the test names in your test file, you m
     1. Locate the option ending in `('venv')` and click it.  
 ![Selected Python version at the bottom-left of the VS Code window](../assets/intermediate-python-debugging_problem-set-using-the-debugger_pick-python-version.png)
 
-#### Discover your tests.
-
-1. Open the Command Palette (⇧⌘P).
-1. Start typing `discover` until you see a choice for `Python: Discover Tests` appear.
-1. Click the option for `Python: Discover Tests`.  
-![Command Palette showing the recommended option Python: Discover Tests after typing `dis`](../assets/intermediate-python-debugging_problem-set-using-the-debugger_discover-tests.png)
-
 #### Configure the test framework if we get a warning.
 
 1. Click `Enable and configure a Test Framework`.  
@@ -130,6 +123,7 @@ If you don't see status icons to left of the test names in your test file, you m
 3. Select `tests` as the directory containing the tests.  
 ![Prompt to pick a test directory, with tests selected](../assets/intermediate-python-debugging_problem-set-using-the-debugger_pick-directory.png)
 
+If you do not see a popup prompting you to "Enable and configure a Test Framework", be sure that you have already set up Pytest for the VS Code debugger. You can review the steps to do so in the previous lesson called "Debugging Tests with Pytest".
 </details>
 
 
