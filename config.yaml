@@ -99,10 +99,10 @@ Standards:
         Type: Lesson
         UID: 86b89d4a-1339-4ff5-bce6-8d6590c079be
         Path: /github-code-reviews/github-code-reviews.md
-      -
-        Type: Lesson
-        UID: bd734793-2da2-43db-986b-bf51c6c23ba6
-        Path: /github-code-reviews/activity-code-reviews.md
+      # -
+      #   Type: Lesson
+      #   UID: bd734793-2da2-43db-986b-bf51c6c23ba6
+      #   Path: /github-code-reviews/activity-code-reviews.md
   -
     Title: "External Resources"
     Description: "Learning Resources Provided by the Ada Community"
