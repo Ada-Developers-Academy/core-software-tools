@@ -111,7 +111,7 @@ To use `pip`, we should learn:
 
 ### Installation
 
-Starting with Python 3.4, `pip` gets installed during the Python installation! During "installfest" we used a tool named `pyenv` to install Python `3.13.1` and `pip` along with it.
+Starting with Python 3.4, `pip` gets installed during the Python installation! During "installfest" we used a tool named `pyenv` to install Python and `pip` along with it.
 
 To verify that `pip` is installed, we can run our first `pip` command in the terminal:
 
