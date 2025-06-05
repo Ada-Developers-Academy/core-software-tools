@@ -43,7 +43,7 @@ For example, say we need to work on some older code and the project is specifica
 - keep around a second laptop with the older Python version installed
 
 Instead of the time investment or physical overhead of swapping Python installations or extra machines, we could use virtual environments! 
-- Because virtual environments are virtual, they do not require any extra harware of their own and are created to run inside another operating system, which makes them easier to manage.
+- Because virtual environments are virtual, they do not require any extra hardware of their own. They are created to run inside another operating system, which makes them easier to manage.
 - We will make and activate virtual environments when we want to work on a project with specific packages installed, and we will deactivate them when we're done working on that particular project.
 
 ## Virtual Environments Help Us With Python3
