@@ -38,13 +38,13 @@ The phrase "dev environment" describes the setup of a computer system used to ru
 
 A virtual environment is an environment that is virtually created. In this case, "virtual" means that something exists, but not in actuality. A virtual environment is an entire computer system that installs and runs software, but it doesn't inhabit a dedicated physical machine... it was created and runs inside another environment.
 
-If we wanted to suddenly write one project in specifically Python 3.8.4, but our current laptop has Python 3.8.5 installed, instead of reinstalling and uninstalling different versions of Python, we might be required to carry around a second laptop.
+For example, say we need to work on some older code and the project is specifically using Python 3.9.4, but our current laptop has Python 3.13.1 installed. Without virtual environments, our options are pretty limited, we can either: 
+- constantly reinstall and uninstall different versions of Python
+- keep around a second laptop with the older Python version installed
 
-Instead of carrying around laptops, we could use virtual environments.
-
-Because virtual environments are virtually created, they're easier to manage.
-
-We'll make and activate virtual environments when we want specific packages installed, and deactivate them when they're no longer needed.
+Instead of the time investment or physical overhead of swapping Python installations or extra machines, we could use virtual environments! 
+- Because virtual environments are virtual, they do not require any extra harware of their own and are created to run inside another operating system, which makes them easier to manage.
+- We will make and activate virtual environments when we want to work on a project with specific packages installed, and we will deactivate them when we're done working on that particular project.
 
 ## Virtual Environments Help Us With Python3
 
@@ -64,39 +64,45 @@ When we create a virtual environment, we can specify to create it with Python3. 
 
 ## Using `venv` In Projects
 
-Projects should always direct us to use virtual environments during project development.
+Projects should always direct us to use virtual environments during development.
 
 Here is a summary of the commands for working with a virtual environment:
 
 ```bash
 ### Make a virtual environment ###
-$ cd project-root-folder # Virtual envs should be created in every project root
+$ cd project-root-folder # Virtual envs should be created at each project's root folder
 $ python3 -m venv venv
+```
 
+```bash
 ### Activate ###
 $ source venv/bin/activate
 (venv) $
 (venv) $ # should see (venv) now
+```
 
+```bash
 ### Install Packages ###
-pip install -r requirements.txt
+pip install -r requirements.txt # install all packages listed in a file "requirements.txt"
 # or #
-pip install <package_name>
+pip install <package_name> # install one package 
+```
 
+```bash
 ### Deactivate ###
 (venv) $ deactivate
 $
 $ # should stop seeing (venv)
 ```
 
-Read on for more details to understand what's going on.
+Let's dig further into these commands!
 
 ### Create
 
 At the beginning of a project, we need to create a virtual environment for this project once.
 
 ```bash
-$ cd project-root-folder # Virtual envs should be created in every project root
+$ cd project-root-folder # Virtual envs should be created at each project's root folder
 $ python3 -m venv venv
 ```
 
@@ -160,14 +166,6 @@ pip install <package_name>
 In the terminal, we should see text that indicates successful installation.
 
 ![pip-install](../assets/venv-pip-install.png)
-
-### !callout-info
-
-#### `pip` not `pip3`
-
-When performing a global install we use the command `pip3`. `pip3` will specify to use `pip` with Python 3. When using `pip` inside our virtual environment, we use the command `pip` because our virtual environment is an environment for managing packages with Python 3.
-
-### !end-callout
 
 ### Deactivate at End of Workflow
 
