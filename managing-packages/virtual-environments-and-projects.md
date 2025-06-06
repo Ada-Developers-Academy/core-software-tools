@@ -38,7 +38,9 @@ The phrase "dev environment" describes the setup of a computer system used to ru
 
 A virtual environment is an environment that is virtually created. In this case, "virtual" means that something exists, but not in actuality. A virtual environment is an entire computer system that installs and runs software, but it doesn't inhabit a dedicated physical machine... it was created and runs inside another environment.
 
-For example, say we're a freelance developer with two clients. The project we support for Client A needs a package `ImportantPackage`, but the project we support for Client B needs `IncompatibleWithImportantPackage`. Let's assume that, as the names imply, the two packages cannot be installed together! Without virtual environments, our options are pretty limited, we can either: 
+For example, say we're a freelance developer with two clients. The project we support for Client A needs a package `ImportantPackage`, but the project we support for Client B needs `IncompatibleWithImportantPackage`. Let's assume that, as the names imply, the two packages cannot be installed together!
+
+Without virtual environments, our options are pretty limited, we can either: 
 - constantly reinstall and uninstall the packages whenever we need to work on one or the other project
 - keep around a second laptop and have `ImportantPackage` installed on one, and `IncompatibleWithImportantPackage` installed on the other
 

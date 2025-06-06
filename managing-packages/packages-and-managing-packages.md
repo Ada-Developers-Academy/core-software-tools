@@ -126,10 +126,10 @@ pip 24.3.1 from /Users/<YOUR_USER_NAME>/.pyenv/versions/3.13.1/lib/python3.13/si
 ```
 
 When reading our output we should look out for:
-- If we see a messgae that `pip` is not found. 
-  - If you see this, refer to the `pip` docs for an installation guide.
-- If we see that `.pyenv` is not part of the path to the `pip` installation. 
-  - If you see this, reach out in #study-hall on Slack for assistance.
+- Do we see a message that `pip` is not found?	
+- Do we _not_ see `.pyenv` included in the path to the `pip` installation?
+
+If either of these situations arise, please reach out for assistance in #study-hall and share the output you are seeing.
 
 ### Install Packages
 
