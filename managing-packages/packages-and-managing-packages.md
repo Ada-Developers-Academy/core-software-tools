@@ -125,7 +125,11 @@ And we should see output similar to:
 pip 24.3.1 from /Users/<YOUR_USER_NAME>/.pyenv/versions/3.13.1/lib/python3.13/site-packages/pip (python 3.13)
 ```
 
-If there was output that `pip` is not found, refer to the `pip` docs for an installation guide.
+When reading our output we should look out for:
+- If we see a messgae that `pip` is not found. 
+  - If you see this, refer to the `pip` docs for an installation guide.
+- If we see that `.pyenv` is not part of the path to the `pip` installation. 
+  - If you see this, reach out in #study-hall on Slack for assistance.
 
 ### Install Packages
 

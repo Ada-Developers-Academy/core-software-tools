@@ -52,19 +52,17 @@ Projects usually depend on a lot of packages being installed, so whenever we dev
 
 We'll change our development workflow, so that whenever we are working on a project, we'll activate a virtual environment. This environment will have every package and dependency set at the exact versions we want.
 
-Most excitingly, these environments will have only Python3 installed.
-
-### !callout-info
-
-## Python3 is the Default `python` Version
-
-When we create a virtual environment, we can specify to create it with Python3. When that's the case, whenever we're inside this activated environment, we can use `python3` _**and**_ `python` as commands to mean Python3.
-
-### !end-callout
-
 ## Using `venv` In Projects
 
 Projects should always direct us to use virtual environments during development.
+
+### !callout-info
+
+## What if I'm not working in a project?
+
+Even if we're not working on a formal "project", we should still set up a virtual environment to manage any dependencies we end up using! If the work we're doing has no dependencies, a virtual environment isn't _required_, however, creating a folder to organize our work, and adding a virtual environment to it is a habit we want to form through practice.
+
+### !end-callout
 
 Here is a summary of the commands for working with a virtual environment:
 
@@ -117,6 +115,8 @@ $ python3 -m venv venv
 #### `python3 -m venv venv`
 
 Running this command creates a new folder that contains files for your virtual environment. With the above command, it creates a new folder named `venv`.
+
+<br>
 
 ## A Virtual Environment Named `venv`?
 
