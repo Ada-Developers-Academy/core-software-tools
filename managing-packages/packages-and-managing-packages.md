@@ -145,7 +145,6 @@ Once created, we can activate the virtual environment with:
 source venv/bin/activate
 ```
 
-
 After our virtual environment is created and running, we can install a dependency with `pip` using:
 ```bash
 pip install <packagename>
