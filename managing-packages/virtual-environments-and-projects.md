@@ -38,15 +38,15 @@ The phrase "dev environment" describes the setup of a computer system used to ru
 
 A virtual environment is an environment that is virtually created. In this case, "virtual" means that something exists, but not in actuality. A virtual environment is an entire computer system that installs and runs software, but it doesn't inhabit a dedicated physical machine... it was created and runs inside another environment.
 
-For example, say we need to work on some older code and the project is specifically using Python 3.9.4, but our current laptop has Python 3.13.1 installed. Without virtual environments, our options are pretty limited, we can either: 
-- constantly reinstall and uninstall different versions of Python
-- keep around a second laptop with the older Python version installed
+For example, say we're a freelance developer with two clients. The project we support for Client A needs a package `ImportantPackage`, but the project we support for Client B needs `IncompatibleWithImportantPackage`. Let's assume that, as the names imply, the two packages cannot be installed together! Without virtual environments, our options are pretty limited, we can either: 
+- constantly reinstall and uninstall the packages whenever we need to work on one or the other project
+- keep around a second laptop and have `ImportantPackage` installed on one, and `IncompatibleWithImportantPackage` installed on the other
 
-Instead of the time investment or physical overhead of swapping Python installations or extra machines, we could use virtual environments! 
-- Because virtual environments are virtual, they do not require any extra hardware of their own. They are created to run inside another operating system, which makes them easier to manage.
+Instead of the time investment or physical overhead of swapping package installations or extra machines, we could use virtual environments! 
+- Python virtual environments provide a way to track the packages and dependencies we need for a project, and to install them in a way that doesn't interfere with other projects.
 - We will make and activate virtual environments when we want to work on a project with specific packages installed, and we will deactivate them when we're done working on that particular project.
 
-## Virtual Environments Help Us With Python3
+## Virtual Environments Help Us With Python
 
 Projects usually depend on a lot of packages being installed, so whenever we develop code for projects, we want to be cautious of our environment.
 

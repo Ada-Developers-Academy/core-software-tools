@@ -25,7 +25,7 @@ Is there a way for us to find other coding projects to help solve our problems?
 
 ## Packages Are Software People Can Use
 
-In Python, a package is a collection of Python code that is related to each other.
+In Python, a package is a collection of Python code files that are related to each other.
 
 Often, packages are meant to define code that can be utilitized as tools. Packages are used to extend a developer's abilities-- we can find, install, and use packages to help our own project development go smoother.
 
@@ -111,7 +111,7 @@ To use `pip`, we should learn:
 
 ### Installation
 
-Starting with Python 3.4, `pip` gets installed during the Python installation! During "installfest" we used a tool named `pyenv` to install Python and `pip` along with it.
+During "installfest" we used a tool named `pyenv` to install Python and `pip` along with it.
 
 To verify that `pip` is installed, we can run our first `pip` command in the terminal:
 
