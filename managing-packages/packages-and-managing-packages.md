@@ -5,7 +5,7 @@
 ## Learning Goals
 
 - Define package in Python
-- Understand how to use pip to install Python packages
+- Understand how to use `pip` to install Python packages
 
 ## Introduction
 
@@ -17,15 +17,15 @@ Is there a way for us to find other coding projects to help solve our problems?
 
 ## Vocabulary and Synonyms
 
-| Vocab   | Definition                                                                                              | Synonyms                                                         | How to Use in a Sentence                                                                                                                                                          |
-| ------- | ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Package | A package is a collection of Python modules that are related to each other                              | "library" or "dependency" in other languages can feel equivalent | "I need to install that package on my computer before I can use it," "My project requires the `pytest` package v6.1," "Maybe there's a package for formatting tables that exists" |
-| Version | A state of software, with its code and dependencies at a specific time. Usually identified with numbers | -                                                                | "There weren't a lot of changes between this version and the last version," "Package A is going to stop supporting Package B older than version 2."                               |
-| Release | A distribution of a new version of a package                                                            | -                                                                |
+| Vocab | Definition | Synonyms | How to Use in a Sentence |
+| ----- | ---------- | -------- | ------------------------ |
+| Package | A package is a collection of Python modules that are related to each other | "library" or "dependency" in other languages can feel equivalent | "I need to install that package on my computer before I can use it," "My project requires the `pytest` package v8.4," "Maybe there's a package for formatting tables that exists" |
+| Version | A state of software, with its code and dependencies at a specific time. Usually identified with numbers | - | "There weren't a lot of changes between this version and the last version," "Package A is going to stop supporting Package B older than version 2." |
+| Release | A distribution of a new version of a package | - | "The PyPI release of Pytest v8.4 is now available", "Who is managing the release of the new Wonderwords version?" |
 
 ## Packages Are Software People Can Use
 
-In Python, a package is a collection of Python code that are related to each other.
+In Python, a package is a collection of Python code files that are related to each other.
 
 Often, packages are meant to define code that can be utilitized as tools. Packages are used to extend a developer's abilities-- we can find, install, and use packages to help our own project development go smoother.
 
@@ -109,49 +109,66 @@ To use `pip`, we should learn:
 1. How to list all the packages installed on our computer
 1. How to install packages
 
-### !callout-danger
-
-## Always use pip3
-
-In the following sections, our commands begin with `pip3`. That may be surprising; why do we use `pip3` instead of `pip`? `pip3` will specify to use `pip` with Python 3, which is not only desired, but **necessary.**
-
-### !end-callout
-
-<!-- Need to confirm that python3 install pip does not make this point moot -->
-
 ### Installation
 
-Starting with Python 3.4, `pip` gets installed during the Python installation!
+During "installfest" we used a tool named `pyenv` to install Python and `pip` along with it.
 
 To verify that `pip` is installed, we can run our first `pip` command in the terminal:
 
 ```bash
-pip3 --version
+pip --version
 ```
 
-If there was output that `pip3` is not found, refer to the `pip` docs for an installation guide.
+And we should see output similar to:
 
-### List All Packages
+```bash
+pip 24.3.1 from /Users/<YOUR_USER_NAME>/.pyenv/versions/3.13.1/lib/python3.13/site-packages/pip (python 3.13)
+```
 
-To list all of the packages and their version numbers installed on our computer, we can use `pip3 list`.
+When reading our output we should look out for:
+- Do we see a message that `pip` is not found?	
+- Do we _not_ see `.pyenv` included in the path to the `pip` installation?
+
+If either of these situations arise, please reach out for assistance in #study-hall and share the output you are seeing.
 
 ### Install Packages
 
-To install packages using pip, we use
+To install packages using pip, we must first create and activate a _virtual environment_ (we'll cover virtual environments in more detail in the next lesson!). 
 
+To create a virtual environment we run the command:
 ```bash
-pip3 install <packagename>
+python3 -m venv venv
+```
+
+Once created, we can activate the virtual environment with:
+```bash
+source venv/bin/activate
+```
+
+After our virtual environment is created and running, we can install a dependency with `pip` using:
+```bash
+pip install <packagename>
 ```
 
 Where `<packagename>` is replaced with a package name.
 
-### !callout-secondary
+If we try to install a package with `pip` while we are outside of a virtual environment, we should see an error that looks like:
+```bash
+$ pip install pytest
+ERROR: Could not find an activated virtualenv (required).
+```
 
-## Global Installations vs. Virtual Environments
+When we are done working on our code, we should exit the virtual environment by running:
+```bash
+deactivate
+```
 
-The commands above are used to perform a global installations on our computer. It is best practice to use `pip` to install packages in a virtual environment.  In the next lesson we will learn how to install packages in virtual enviroments.
+### List All Packages
 
-### !end-callout
+To list all of the packages and their version numbers installed in a virtual environment for a project, we can use:
+```bash
+pip list
+```
 
 ## Summary
 
@@ -159,8 +176,8 @@ We will find, install, use, and manage packages in Python using `pip`.
 
 Commands to keep handy:
 
-- `pip3 --version`
-- `pip3 list`
+- `pip --version`
+- `pip list`
 
 ## Check for Understanding
 
