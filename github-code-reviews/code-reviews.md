@@ -91,6 +91,6 @@ Code reviews are a standard way to ensure code quality and share knowledge of th
 
 ## Sources For This Lesson
 
-- [The Science of Code Reviews Video](https://www.youtube.com/watch?v=EyL7mqwpZhk)
+- [The Science of Code Reviews Video](https://www.youtube.com/watch?v=D5o1pItiob4)
 - [The Psycology of Computer Programming](https://leanpub.com/thepsychologyofcomputerprogramming) - The 1st book on the human factors of computer programming, and the 1st to mention Egoless programming.
 - [Pull Request Review in VS Code](https://code.visualstudio.com/blogs/2018/09/10/introducing-github-pullrequests)
