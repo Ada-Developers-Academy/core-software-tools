@@ -83,7 +83,7 @@ Another way to provide a review on code is through _pair programming_. In pair p
 
 Another code review method is called [_mob programming_](https://en.wikipedia.org/wiki/Mob_programming) where a team of developers works on the same feature, at the same time, together. One developer drives while the rest of the team navigates. Mob programming can be very useful on complicated, tricky, or core features where wide understanding on the team is essential. Sometimes it is useful to have as many eyes on the code as possible.
 
-Both mob programming and pair programming can also be done remotely using software such as [Visual Studio's Liveshare extension](https://code.visualstudio.com/blogs/2017/11/15/live-share). They also have the advantage of a very short feedback loop, while a more common pull request review happens asynchronously and can happen hours or even days later. 
+Both mob programming and pair programming can also be done remotely using software such as [Visual Studio's Live Share extension](https://code.visualstudio.com/blogs/2017/11/15/live-share). They also have the advantage of a very short feedback loop, while a more common pull request review happens asynchronously and can happen hours or even days later. 
 
 ## Summary
 
@@ -92,5 +92,5 @@ Code reviews are a standard way to ensure code quality and share knowledge of th
 ## Sources For This Lesson
 
 - [The Science of Code Reviews Video](https://www.youtube.com/watch?v=D5o1pItiob4)
-- [The Psycology of Computer Programming](https://leanpub.com/thepsychologyofcomputerprogramming) - The 1st book on the human factors of computer programming, and the 1st to mention Egoless programming.
+- [The Psychology of Computer Programming](https://leanpub.com/thepsychologyofcomputerprogramming) - The 1st book on the human factors of computer programming, and the 1st to mention Egoless programming.
 - [Pull Request Review in VS Code](https://code.visualstudio.com/blogs/2018/09/10/introducing-github-pullrequests)
