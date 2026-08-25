@@ -1,7 +1,5 @@
 # Virtual Environments and Projects
 
-<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=d9067779-45c7-404a-b4d4-acd9016b33a0&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
-
 ## Ada Projects Will Use Virtual Environments
 
 Ada projects will ask us to use virtual environments during project development.
